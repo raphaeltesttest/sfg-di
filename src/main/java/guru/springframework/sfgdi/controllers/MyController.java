@@ -9,7 +9,7 @@ public class MyController {
 
     private final GreetingService greetingService;
 
-    public MyController(@Qualifier("myTest") GreetingService greetingService) {
+    public MyController(GreetingService greetingService) {
         this.greetingService = greetingService;
     }
 

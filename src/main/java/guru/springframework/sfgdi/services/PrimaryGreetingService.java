@@ -3,7 +3,7 @@ package guru.springframework.sfgdi.services;
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Service;
 
-@Service("myTest")
+//@Service("myTest")
 public class PrimaryGreetingService implements GreetingService{
 
     private GreetingRepository greetingRepository;
